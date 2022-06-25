@@ -1,0 +1,19 @@
+.btn {
+    height: 7vh;
+    width: 15vw;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background-color: #382f5a;
+    border-color: #c4c4c4;
+    color: #c4c4c4;
+    font-size: 25px;
+}
+
+@media (max-width:767px){
+    .btn {
+        height: 25px;
+        width: 150px;
+        border-radius: 3px;
+        font-size: 12px;
+    }   
+}
